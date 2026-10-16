@@ -27,3 +27,27 @@ This application is a Spring Boot RESTful Web Service that manages information a
 ## Example Request Bodies
 
 ### `POST /api/characters` (Create Character)
+
+json
+{
+"name": "Walter White",
+"showName": "Breaking Bad",
+"universe": "AMC",
+"role": "Protagonist"
+}
+### `PUT /api/characters/{id}` (Update Character)
+
+json
+{
+"name": "Bryan Cranston / Walter White",
+"showName": "Breaking Bad",
+"universe": "AMC Network",
+"role": "Antihero"
+}
+
+---
+
+## Live Deployment
+- **Deployment URL:** [https://assignment-3-35w2.onrender.com/api/characters](https://assignment-3-35w2.onrender.com/api/characters)
+
+> **Cold Start Note:** Because this service is hosted on Render's free tier, the instance will automatically spin down after a period of inactivity. Initial requests after spin-down may take up to 50 seconds or more to respond while the service starts up.

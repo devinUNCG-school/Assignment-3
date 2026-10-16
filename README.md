@@ -24,26 +24,6 @@ This application is a Spring Boot RESTful Web Service that manages information a
 
 ---
 
-## Example Request Bodies
-
-### `POST /api/characters` (Create Character)
-
-json
-{
-"name": "Walter White",
-"showName": "Breaking Bad",
-"universe": "AMC",
-"role": "Protagonist"
-}
-### `PUT /api/characters/{id}` (Update Character)
-
-json
-{
-"name": "Bryan Cranston / Walter White",
-"showName": "Breaking Bad",
-"universe": "AMC Network",
-"role": "Antihero"
-}
 
 ---
 
